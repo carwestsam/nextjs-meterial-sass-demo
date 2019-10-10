@@ -1,0 +1,36 @@
+{
+  "name": "official-site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "front-export": "ENV=prod NODE_ENV=production next export"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@material-ui/core": "^4.5.0",
+    "@material-ui/icons": "^4.4.3",
+    "@material-ui/styles": "^4.5.0",
+    "@zeit/next-sass": "^1.0.1",
+    "clsx": "^1.0.4",
+    "final-form": "^4.18.5",
+    "markdown-to-jsx": "^6.10.3",
+    "next": "^9.1.1",
+    "prop-types": "^15.7.2",
+    "raw-loader": "^3.1.0",
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2",
+    "react-final-form": "^6.3.0",
+    "sass": "^1.23.0",
+    "sass-loader": "^7.2.0"
+  },
+  "devDependencies": {
+    "babel-plugin-styled-components": "^1.10.6"
+  }
+}
